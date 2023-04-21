@@ -1,7 +1,7 @@
 :root {
    --color-black: #000;
-   --color-skyblue: #87ceeb;
-   --color-red: #ff0000;
+   --color-skyblue: rgb(135, 206, 235);
+   --color-red: rgb(255, 0, 0);
    --color-white: #fff;
    --color-pink: #ffc0cb;
    --color-slategray: #c0c2c9;
