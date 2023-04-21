@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+:root {
+   --color-black: #000;
+   --color-skyblue: #87ceeb;
+   --color-red: #ff0000;
+   --color-white: #fff;
+   --color-pink: #ffc0cb;
+   --color-slategray: #c0c2c9;
+}
+
+body {
+    background-color: var(--color-skyblue);
+}
+
+p:first-child {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+p:last-child {
+    border: var(--color-red);
+}
+
+ul li:first-child, ul li:last-child{
+    background-color: var(--color-white);
+    padding: 10px;
+    width: 400px;
+}
+ul li:nth-child(2n) {
+    background-color: var(--color-slategray);
+    padding: 10px ;
+    width: 400px;
+}
+
+ul li:nth-child(3) {
+    background-color: var(--color-pink);
+    padding: 10px;
+    width: 400px;
+}
